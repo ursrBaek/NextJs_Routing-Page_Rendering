@@ -12,7 +12,6 @@ export default function FilteredNewsPage({ params }) {
   const filter = params.filter;
 
   const selectedYear = filter?.[0];
-  console.log(selectedYear);
   const selectedMonth = filter?.[1];
 
   let news;
